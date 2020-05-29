@@ -94,7 +94,7 @@ public $display_column_right = false;
 	}
 	
 	
-	
+	// requete pour les depenses 
 	public function depenses($id_customer,$start,$end)
 	{
 		$sql = 'SELECT SUM(total_paid_tax_excl) as depenses
